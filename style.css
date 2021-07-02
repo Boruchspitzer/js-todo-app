@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    color: green;
+}
+span{
+    height: 100%;
+    float: right;
+    align-items: center;
+    margin-left: 8rem;
+}
+ul{
+    width: max-content;
+    position: relative;
+    list-style: none;
+    justify-content: first baseline;
+}
+li:nth-child(even){
+
+    background-color: greenyellow;
+}
+#item{
+    width: 10rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+li{
+    border-bottom: black;
+    height: 2rem;
+    text-align: center;
+    font-family: cursive;
+}
+.trash{
+    margin-top: .5rem;
+    margin-right: 1.5rem;
+    float: right;
+    color: red;
+    cursor: pointer;
+}
+.form{
+    margin-left: 2rem;
+    float: right;
+    position: relative;
+    flex-direction: column;
+
+}
+.app{
+   width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+input{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    
+}
+.completed{
+    float: left;
+    margin-right: 2rem;
+    margin-top: .5rem;
+}
+.check{
+    cursor: pointer;
+    margin-right: 1rem;
+    font-size: small;
+    color: darkorange;
+}
+.more{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.done{
+    text-decoration: line-through;
+}
