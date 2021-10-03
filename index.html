@@ -4,23 +4,46 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>  
+    <div class="header">HEADER</div>
+    <div class="menue">
+        <a class="active" href="#">item 1</a>
+        <a href="https://www.coderony.com/">item 2</a>
+        <a href="#">item 3</a>
+    </div>
+    <input class="exiter" type="button" value="exiter">
+ <div class="greeting">
+     <script src="http://dataservice.accuweather.com/currentconditions/v1/"></script>
+    <script type="text/javascript" charset="utf-8"src="https://www.hebcal.com/etc/hdate-he.js"></script>
+ </div>
     <div class="app">
-    <h1>todo list</h1>
+    <h1>Todo list</h1>
     <div class="form">
         <input type="text" name="item" id="item">
+        <label for="duet">Complete by:</label>
         <input type="date" name="duet" id="duet">
+        <label for="priority">Choose a priority:</label>
+
+<select id="priority">
+  <option value="low">LOW</option>
+  <option value="medium">MIDIUM</option>
+  <option value="high">HIGH</option>
+</select>
         <input type="button" value="save" id="addbtn">
     </div>
 
 <ul id="list">
 </ul>
 </div>
-    <script type="module" src="/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/autoComplete.min.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
